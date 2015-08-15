@@ -1,21 +1,27 @@
-def addition(1+1)
+def addition(num1, num2)
+  num1 + num2
 end
 
-def subtraction(1-1)
+def subtraction(num1, num2)
+  num1 - num2
 end
 
-def division(2/1)
+def division(num1, num2)
+  num1 / num2
 end
 
-def multiplication(2*1)
+def multiplication(num1, num2)
+  num1 * num2
 end
 
-def modulo(5%3)
+def modulo(num1, num2)
+  num1 % num2
 end
 
-def square_root(9**2)
+def square_root(num)
+  Math.sqrt(num)
 end
 
-def order_of_operation 1+((3*5)/5 )
-  #Hint:  __ + (( __ * __ ) / __ )
+def order_of_operation(num1, num2, num3, num4)
+  num1 + ((num2 * num3) / num4)
 end
